@@ -3,3 +3,27 @@
     height:85vh;
     width:100%;
 }
+svg.radial-progress {
+    height: auto;
+    max-width: 200px;
+    padding: 1em;
+    transform: rotate(-90deg);
+    width: 100%;
+  }
+  
+  svg.radial-progress circle {
+    fill:#FFFFFF ;
+    stroke: #30BAE7;
+    stroke-dashoffset: 219.91148575129; 
+    stroke-width: 2;
+    
+  }
+  
+  svg.radial-progress circle.incomplete { opacity: 0.25; }
+  
+  svg.radial-progress circle.complete { stroke-dasharray: 221.91148575129; }
+  
+  svg.radial-progress text {
+    fill: black;
+    text-anchor: middle;
+  }
